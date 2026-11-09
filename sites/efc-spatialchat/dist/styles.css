@@ -3254,3 +3254,23 @@ h2 em {
 .tool-tile b img { width: 100%; height: 100%; object-fit: contain; }
 .spatial-glyph:has(img) { background: transparent !important; }
 .spatial-glyph img { width: 100%; height: 100%; object-fit: contain; }
+
+/* Convergence – reference layout */
+.convergence{background:linear-gradient(115deg,#f72466 0%,#a565a8 38%,#7fa6d4 62%,#1fd3e3 100%)!important}
+.conv-eyebrow{display:flex;align-items:center;gap:22px;color:#fff!important;font-weight:750;letter-spacing:.04em;text-transform:uppercase}
+.conv-badge{width:72px;height:72px;border-radius:50%;object-fit:cover;box-shadow:0 0 0 3px rgba(255,255,255,.35)}
+.convergence-head h2{color:#fff}
+.convergence-head h2 em{color:#22e6f2;font-style:normal}
+.convergence-head > p:last-child{color:rgba(255,255,255,.92)!important}
+.tool-convergence{margin-top:60px;padding:56px 64px 60px;background:#fff!important;border:6px solid transparent!important;border-image:none!important;border-radius:30px;background-clip:padding-box!important;position:relative;box-shadow:0 30px 70px rgba(30,20,80,.25)}
+.tool-convergence::before{content:"";position:absolute;inset:-6px;border-radius:30px;padding:6px;background:linear-gradient(90deg,#ff1fa8,#8a3bff 45%,#18e0f0);-webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+.tool-rail{gap:24px;justify-items:center}
+.tool-tile{border:0!important;min-height:0!important;padding:0!important}
+.tool-tile b{width:150px!important;height:150px!important;max-width:100%;border-radius:0!important}
+.tool-tile span{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.converge-arrow{min-height:110px}.converge-arrow i{display:none}
+.converge-arrow span{font-size:3rem;color:#141a3a;font-weight:700;line-height:1}
+.spatial-core{background:transparent!important;padding:0!important;gap:28px;color:#1c1414!important}
+.spatial-glyph{width:90px!important;height:120px!important;border-radius:0!important}
+.spatial-core strong{font-size:clamp(3rem,5.5vw,5rem)!important;font-weight:800;letter-spacing:-.02em;color:#1c1414}
+@media (max-width:900px){.tool-convergence{padding:28px}.tool-tile b{width:90px!important;height:90px!important}.spatial-glyph{width:56px!important;height:76px!important}}
