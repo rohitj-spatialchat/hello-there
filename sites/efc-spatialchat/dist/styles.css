@@ -3249,3 +3249,8 @@ h2 em {
   .reveal { opacity: 1; transform: none; }
   .pointer-light { display: none; }
 }
+
+.tool-tile b:has(img) { background: transparent !important; }
+.tool-tile b img { width: 100%; height: 100%; object-fit: contain; }
+.spatial-glyph:has(img) { background: transparent !important; }
+.spatial-glyph img { width: 100%; height: 100%; object-fit: contain; }
