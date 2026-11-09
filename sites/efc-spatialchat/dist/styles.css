@@ -1608,12 +1608,12 @@ h2 em {
   text-transform: uppercase;
 }
 
-.tool-linkedin b { background: #0967a9; }
-.tool-call b { background: #32c94b; }
-.tool-video b { background: #1158db; }
-.tool-slack b { color: #ec174c; background: #f1f2ed; }
-.tool-teams b { background: #5146b8; }
-.tool-whatsapp b { background: #27a936; }
+.tool-linkedin b { background: #0A66C2; }
+.tool-call b { background: #00897B; }
+.tool-video b { background: #0B5CFF; }
+.tool-slack b { background: #4A154B; }
+.tool-teams b { background: #6264A7; }
+.tool-whatsapp b { background: #25D366; }
 
 .converge-arrow {
   display: grid;
